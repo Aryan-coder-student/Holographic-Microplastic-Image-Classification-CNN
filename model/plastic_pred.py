@@ -46,12 +46,16 @@ class PlasticPredict:
         self.img  = img 
     def pred(self):
         #"cuda" if torch.cuda.is_available() else 
+ 
         loaded_model = CNNModel()
-        loaded_model = torch.load(loaded_model, map_location=torch.device('cpu'))
-        loaded_model.load_state_dict(torch.load('./model/micro_plastic.pth'))
+
+ 
+        state_dict = torch.load('./model/micro_plastic.pth', map_location=torch.device('cpu'))
+ 
+        loaded_model.load_state_dict(state_dict)
         
         input_tensor = self.img
-        # print(input_tensor)
+ 
         input_batch = input_tensor.unsqueeze(0)
         with torch.no_grad():
             output = loaded_model(input_batch)
