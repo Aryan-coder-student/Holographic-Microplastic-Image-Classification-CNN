@@ -48,6 +48,7 @@ class PlasticPredict:
         device = "cpu" #"cuda" if torch.cuda.is_available() else 
         loaded_model = CNNModel().to(device)
         loaded_model.load_state_dict(torch.load('./model/micro_plastic.pth'))
+        loaded_model = torch.load(loaded_model, map_location=torch.device('cpu'))
         input_tensor = self.img
         # print(input_tensor)
         input_batch = input_tensor.unsqueeze(0)
