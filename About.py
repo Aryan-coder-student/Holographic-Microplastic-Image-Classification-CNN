@@ -163,9 +163,10 @@ if selected == "Micro Plastic Prediction":
             #     engine.say(st.session_state._LOREM_IPSUM)
             #     engine.runAndWait()
             st.markdown(f"<hr><h2> How {plastic_dic[ans]} could be treated ?",unsafe_allow_html=True)
-            if "point_two" not in st.session_state:
-                res = model.generate_content(f"How {plastic_dic[ans]} could be treated ?")
-                st.session_state["point_two"] = res.text
+            with st.spinner('Processing  .........'):
+                if "point_two" not in st.session_state:
+                    res = model.generate_content(f"How {plastic_dic[ans]} could be treated ?")
+                    st.session_state["point_two"] = res.text
 
             st.write_stream(stream_data(st.session_state.point_two))
             # voice_button_2 = st.button("Speak", key="button_2")
