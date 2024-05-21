@@ -45,7 +45,7 @@ class PlasticPredict:
     def __init__(self, img):
         self.img  = img 
     def pred(self):
-        device = "cuda" if torch.cuda.is_available() else "cpu"
+        device = "cpu" #"cuda" if torch.cuda.is_available() else 
         loaded_model = CNNModel().to(device)
         loaded_model.load_state_dict(torch.load('./model/micro_plastic.pth'))
         input_tensor = self.img

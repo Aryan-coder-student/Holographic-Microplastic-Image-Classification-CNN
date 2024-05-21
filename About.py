@@ -139,7 +139,6 @@ if selected == "Micro Plastic Prediction":
         st.image(user_image.resize((255,255)))
         user_image = user_image.convert('RGB')
         input_tensor = transform(user_image).to(device)
-        print(input_tensor)
         plstic = PlasticPredict(input_tensor)
         ans = plstic.pred()
         st.markdown("<h3><u>Predicted Plastic Type:</u></h3>",unsafe_allow_html=True)
