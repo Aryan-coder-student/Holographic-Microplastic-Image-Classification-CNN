@@ -6,7 +6,7 @@ import torch
 from model.plastic_pred import PlasticPredict
 import google.generativeai as genai
 import time
-import pyttsx3
+
 
 API_KEY = "AIzaSyDKuCOQMnjyTGZyF6FaVwZ5_IBUreXrykg"
 
