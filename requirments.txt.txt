@@ -1,0 +1,6 @@
+scikit-learn
+streamlit-option-menu
+torch 
+torchvision
+google.generativeai
+PIL
