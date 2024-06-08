@@ -32,6 +32,10 @@ After classification, the application uses the Gemni API to generate content reg
     git clone https://github.com/yourusername/microplastic-classification.git
     cd microplastic-classification
     ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
 ## Usage
 
 1. Run the Streamlit application:
