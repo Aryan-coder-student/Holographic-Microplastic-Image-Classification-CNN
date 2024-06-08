@@ -7,8 +7,8 @@ from model.plastic_pred import PlasticPredict
 import google.generativeai as genai
 import time
 import os
-
-API_KEY = "AIzaSyDn6YVysXFhKrYSsgsriF592Ev9X8UmQps"
+z
+API_KEY = os.getenv("GEMNI_API_KEY")
 
 st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
 
