@@ -7,10 +7,7 @@ from model.plastic_pred import PlasticPredict
 import google.generativeai as genai
 import time
 import os
-from googleapiclient.discovery import build
 
-service = build('generativelanguage', 'v1beta', developerKey=os.getenv("GEMNI_API_KEY"),
-                scopes=['https://www.googleapis.com/auth/cloud-platform'])
 API_KEY = os.getenv("GEMNI_API_KEY")
 
 st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
