@@ -8,7 +8,7 @@ import google.generativeai as genai
 import time
 
 
-API_KEY = "AIzaSyDKuCOQMnjyTGZyF6FaVwZ5_IBUreXrykg"
+API_KEY = "AIzaSyDn6YVysXFhKrYSsgsriF592Ev9X8UmQps"
 
 st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
 
@@ -321,12 +321,8 @@ elif selected == "About" :
     """
 
     def main():
-        # Add custom CSS for styling
         st.markdown(css_style, unsafe_allow_html=True)
-
-        # Render the HTML content using st.markdown
         st.markdown(html_content, unsafe_allow_html=True)
         
-    # Run the app
     if __name__ == "__main__":
         main()
