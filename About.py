@@ -8,7 +8,7 @@ import google.generativeai as genai
 import time
 import os
 
-API_KEY = os.getenv("GEMNI_API_KEY")
+API_KEY = "AIzaSyDR0CxdqyVVEGxACOBxl0Zi8mdZrzESLEM"
 
 st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
 
