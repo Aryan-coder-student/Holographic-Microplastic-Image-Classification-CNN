@@ -28,6 +28,13 @@ After classification, the application uses the Gemni API to generate content reg
 
 1. **Microplastic Classification**: Classifies the holographic image into one of the predefined categories.
 2. **Content Generation**: Generates information about the identified microplastic type, its environmental impact, and treatment methods using the Gemni API.
+## Sample
+
+
+
+https://github.com/Aryan-coder-student/Holographic-Microplastic-Image-Classification-CNN/assets/76030680/be4dc3db-945f-49ff-bc0e-2797a6c4aee4
+
+
 
 ## Installation
 
