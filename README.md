@@ -73,6 +73,10 @@ The Gemni API is used to generate detailed content about the classified micropla
 
 ## Dataset
 
-This dataset contains microplastic particle images used for research purposes, including 'Holographic Classifier: Deep Learning in Digital Holography for Automatic Micro-objects Classification' and 'Microplastic pollution monitoring with holographic classification and deep learning.' The dataset is labeled by microplastic type and number of particles in the image.</n>
-Mention :- @ymzhu19eee
+This dataset contains microplastic particle images used for research purposes, including 'Holographic Classifier: Deep Learning in Digital Holography for Automatic Micro-objects Classification' and 'Microplastic pollution monitoring with holographic classification and deep learning.' The dataset is labeled by microplastic type and number of particles in the image.
 [Dataset Source](https://github.com/ymzhu19eee/dataset_microplastics)
+
+
+## Credits
+
+Special thanks to [@ymzhu19eee](https://github.com/ymzhu19eee) for providing the dataset.
