@@ -1,3 +1,5 @@
+App Link :- https://holographic-microplastic-image-classification-cnn.streamlit.app/
+
 # Microplastic Classification using Holographic Images
 
 This Streamlit application classifies a given holographic image of microplastics into one of the following categories using a Convolutional Neural Network (CNN) model built with PyTorch:
