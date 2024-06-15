@@ -1,4 +1,4 @@
-App Link :- https://holographic-microplastic-image-classification-cnn.streamlit.app/
+App Link :- [https://holographic-microplastic-image-classification-cnn.streamlit.app/](https://holographic-microplastic-image-classification-cnn.streamlit.app/)
 
 # Microplastic Classification using Holographic Images
 <img src="https://github.com/Aryan-coder-student/Holographic-Microplastic-Image-Classification-CNN/assets/76030680/425c3a6c-4533-41e1-bc7f-ae1db8db74bd" alt="017" width="400" height="300">
