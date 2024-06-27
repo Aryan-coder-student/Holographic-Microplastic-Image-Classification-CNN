@@ -51,7 +51,7 @@ if selected == "Micro Plastic Prediction":
         st.markdown("<h3><u>Predicted Plastic Type:</u></h3>",unsafe_allow_html=True)
         st.markdown(f"\t ###### {plastic_dic[ans]}")
         genai.configure(api_key=API_KEY)
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-pro")
         if ans != 8:
             with st.spinner('Processing  .........'):
                 st.markdown("<hr>",unsafe_allow_html=True)
